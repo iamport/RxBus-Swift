@@ -20,6 +20,33 @@ dependencies: [
 ]
 ```
 
+### This library is distributed by [CocoaPods](https://cocoapods.org).
+
+CocoaPods is a dependency manager for Cocoa projects. You can install it with the following command:
+
+```
+$ gem install cocoapods
+```
+
+To integrate RxBus into your Xcode project using CocoaPods, specify it in your Podfile:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+# platform :osx, '10.10'
+# platform :tvos, '9.0'
+use_frameworks!
+
+target '<Target name in your project>' do
+    pod 'RxBus'
+end
+```
+
+Then, run the following command:
+
+```
+$ pod install
+
 ## Usage
 
 #### Imports
