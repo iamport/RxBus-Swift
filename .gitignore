@@ -32,3 +32,6 @@ Carthage
 #
 Pods/
 Podfile.lock
+
+# AppCode SPM by BingBong
+.build
