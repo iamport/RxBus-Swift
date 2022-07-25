@@ -1,5 +1,10 @@
 # RxBus
 
+[![Version](https://img.shields.io/cocoapods/v/RxBusForPort.svg?style=flat)](https://cocoapods.org/pods/RxBusForPort)
+[![License](https://img.shields.io/cocoapods/l/RxBusForPort.svg?style=flat)](https://cocoapods.org/pods/RxBusForPort)
+[![Platform](https://img.shields.io/cocoapods/p/RxBusForPort.svg?style=flat)](https://cocoapods.org/pods/RxBusForPort)
+
+
 Event bus framework supports sticky events and subscribers priority based on RxSwift.
 
 ## Requirements
