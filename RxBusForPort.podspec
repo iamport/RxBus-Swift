@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'RxBusForPort'
-  s.version      = '1.3.6-alpha.5'
+  s.version      = '1.3.6-alpha.6'
   s.summary      = 'This is RxBus fork for CocoaPods. Event bus framework supports sticky events and subscribers priority based on RxSwift.'
   s.homepage     = 'https://github.com/portone-io/RxBus-Swift'
   s.authors      = { 'Iamport support team' => 'bingbong@chai.finanace' }
