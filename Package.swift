@@ -6,9 +6,9 @@ import PackageDescription
 let package = Package(
     name: "RxBusForPort",
     platforms: [
-        .macOS(.v10_10),
-        .iOS(.v9),
-        .tvOS(.v9),
+        .macOS(.v10_13),
+        .iOS(.v12),
+        .tvOS(.v12),
     ],
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
