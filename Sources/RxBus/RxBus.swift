@@ -226,6 +226,11 @@ public final class RxBus: CustomStringConvertible {
         return stickyMap.removeValue(forKey: event.name) as? T
     }
     
+    public func removeAllSubscription(){
+         subjects.removeAll()
+         subscriptionCounts.removeAll()
+     }
+    
     // MARK: - Notification
     
     private func dispatchNotification(_ notification: Notification) {
